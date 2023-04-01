@@ -23,7 +23,7 @@
         <inputParameters>
             <name>slackConversationId</name>
             <value>
-                <stringValue>$Label.desinzc_case_ac_1123</stringValue>
+                <stringValue>C0515N3C34L</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -89,12 +89,11 @@
     <textTemplates>
         <name>caseClosedMessage</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>Hello 👋 🎉
-This is *Owen Grady*, *Sustainability Manger* at *McDuck Enterprises*.
-*Congratulations!!* The Case &lt;https://desi-nzc.lightning.force.com/lightning/r/Case/{!$Record.Id}/view | {!$Record.CaseNumber}&gt; 
-has been closed *successfully*.
+        <text>Hello Claire 👋 
+This is *Owen Grady*, *Sustainability Manger* :net-zero-tree: at *McDuck Enterprises* :mcduck-enterprises:.
+🎉 *Congratulations!!* 🎉 The Case &lt;https://desi-nzc.lightning.force.com/lightning/r/Case/{!$Record.Id}/view | {!$Record.CaseNumber}&gt; has been closed *successfully*.
 
-Here are the Greenhouse Gas Emissions incurred during this opportunity:
+Here are the :recycle: *Greenhouse Gas Emissions* :recycle: incurred during this case:
 Total Scope 1 Emissions (tCO2e) : *{!$Record.CasTotScope1EmissionsInTco2e__c}*
 Total Scope 2 Location-Based Emissions : *{!$Record.CasTotScope2LocBasedEmissions__c}*
 Total Scope 2 Market-based Emissions : *{!$Record.CasTotScope2MktBasedEmissions__c}*
@@ -102,11 +101,10 @@ Total Scope 3 Downstream Emissions (tCO2e) : *{!$Record.CasTotalScp3DnstrmEmissi
 Total Scope 3 Upstream Emissions (tCO2e) : *{!$Record.CasTotalScp3UpstrmEmissions__c}*
 Total Scope 3 Emissions (tCO2e) : *{!$Record.CasTotScope3EmissionsInTco2e__c}*
 
-We will be sending you the final version of :net-zero-tree: :net-zero-emoji: Sustainability Report :net-zero-emoji: :net-zero-tree: linked to this case once the expenses have been fully submitted and validated.
-
+We will be sending you the final version of :net-zero-tree: :net-zero-emoji: *Sustainability Report* :net-zero-emoji: :net-zero-tree: linked to this case, once the expenses have been fully submitted and validated.
 Do not hesitate to share the Sustainability Report with the customer and ask them if they want to engage or even contribute with Offsetting of these emissions or by choosing the Net Zero Carbon projects of their choice on &lt;https://netzero.salesforce.com/s/|Net Zero Marketplace&gt;.
 
-Regards,
-The Sustainability Team</text>
+Thanks,
+:sustainability:The Sustainability Team:sustainability:</text>
     </textTemplates>
 </Flow>
