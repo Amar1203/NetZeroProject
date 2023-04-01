@@ -23,7 +23,7 @@
         <inputParameters>
             <name>slackConversationId</name>
             <value>
-                <elementReference>$Label.desinzc_deal_ac_new_bus</elementReference>
+                <stringValue>C05109KMKL5</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -63,7 +63,7 @@
         <inputParameters>
             <name>slackConversationId</name>
             <value>
-                <elementReference>$Label.desinzc_deal_ac_new_bus</elementReference>
+                <stringValue>C05109KMKL5</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -161,7 +161,7 @@
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>OppMsg_LOST</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
@@ -177,8 +177,9 @@ Total Scope 3 Downstream Emissions (tCO2e) : *{!$Record.OppTotalScp3DnstrmEmissi
 Total Scope 3 Upstream Emissions (tCO2e) : *{!$Record.OppTotalScp3UpstrmEmissions__c}*
 Total Scope 3 Emissions (tCO2e) : *{!$Record.OppTotScope3EmissionsInTco2e__c}*
 
-Please get in touch with the :net-zero-tree: :net-zero-emoji: Net Zero Team :net-zero-emoji: :net-zero-tree: to get a full Sustainability Report that incurred during this opportunity.
-Do not hesitate to share the Sustainability Report with the customer and ask them if they want to engage or even contribute with Offsetting of these emissions or by choosing the Net Zero Carbon projects of their choice on &lt;https://netzero.salesforce.com/s/|Net Zero Marketplace&gt;.
+We will be sending you the final version of :net-zero-tree: :net-zero-emoji: Sustainability Report :net-zero-emoji: :net-zero-tree: linked to this Opportunity once the expenses have been fully submitted and validated.
+Do not hesitate to share the Sustainability Report with the customer and ask them if they want to engage or even contribute with Offsetting of these emissions or by choosing the Net Zero Carbon projects of their choice on
+ &lt;https://netzero.salesforce.com/s/|Net Zero Marketplace&gt;.
 
 Regards,
 :sustainability: The Sustainability Team :sustainability:</text>
@@ -198,8 +199,9 @@ Total Scope 3 Downstream Emissions (tCO2e) : *{!$Record.OppTotalScp3DnstrmEmissi
 Total Scope 3 Upstream Emissions (tCO2e) : *{!$Record.OppTotalScp3UpstrmEmissions__c}*
 Total Scope 3 Emissions (tCO2e) : *{!$Record.OppTotScope3EmissionsInTco2e__c}*
 
-Please get in touch with the :net-zero-tree: :net-zero-emoji: Net Zero Team :net-zero-emoji: :net-zero-tree: to get a full Sustainability Report that incurred during this opportunity.
-Do not hesitate to share the Sustainability Report with the customer and ask them if they want to engage or even contribute with Offsetting of these emissions or by choosing the Net Zero Carbon projects of their choice on &lt;https://netzero.salesforce.com/s/|Net Zero Marketplace&gt;.
+We will be sending you the final version of :net-zero-tree: :net-zero-emoji: Sustainability Report :net-zero-emoji: :net-zero-tree: linked to this Opportunity once the expenses have been fully submitted and validated.
+Do not hesitate to share the Sustainability Report with the customer and ask them if they want to engage or even contribute with Offsetting of these emissions or by choosing the Net Zero Carbon projects of their choice on
+ &lt;https://netzero.salesforce.com/s/|Net Zero Marketplace&gt;.
 
 Regards,
 :sustainability: The Sustainability Team :sustainability:</text>

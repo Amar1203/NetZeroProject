@@ -3,8 +3,8 @@
     <actionCalls>
         <name>postCaseClosed</name>
         <label>postCaseClosed</label>
-        <locationX>308</locationX>
-        <locationY>288</locationY>
+        <locationX>908</locationX>
+        <locationY>336</locationY>
         <actionName>slackPostMessage</actionName>
         <actionType>slackPostMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -23,7 +23,7 @@
         <inputParameters>
             <name>slackConversationId</name>
             <value>
-                <elementReference>$Label.desinzc_case_ac_1123</elementReference>
+                <stringValue>C0515N3C34L</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -53,7 +53,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -64,8 +64,8 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>50</locationX>
-        <locationY>0</locationY>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>
         <filters>
@@ -85,26 +85,28 @@
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>caseClosedMessage</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>Hello 
-This is Owen Grady, Sustainability Manger :net-zero-tree: at McDuck Enterprises :mcduck-enterprises: .
-🎉 *Congratulations!!* 🎉 The Case &lt;https://desi-nzc.lightning.force.com/lightning/r/Case/{!$Record.Id}/view | {!$Record.CaseNumber}&gt; has been closed *successfully*. 
+        <text>Hello 👋 🎉
+This is *Owen Grady*, *Sustainability Manger* at *McDuck Enterprises*.
+*Congratulations!!* The Case &lt;https://desi-nzc.lightning.force.com/lightning/r/Case/{!$Record.Id}/view | {!$Record.CaseNumber}&gt; 
+has been closed *successfully*.
 
-Here are the :recycle: *Greenhouse Gas Emissions* :recycle: incurred during this case :
-Total Scope 1 Emissions (tCO2e) : {!$Record.CasTotScope1EmissionsInTco2e__c}
-Total Scope 2 Location-Based Emissions : {!$Record.CasTotScope2LocBasedEmissions__c}
-Total Scope 2 Market-based Emissions : {!$Record.CasTotScope2MktBasedEmissions__c} 
-Total Scope 3 Downstream Emissions (tCO2e) : {!$Record.CasTotalScp3DnstrmEmissions__c}
-Total Scope 3 Upstream Emissions (tCO2e) : {!$Record.CasTotalScp3UpstrmEmissions__c}
-Total Scope 3 Emissions (tCO2e) : {!$Record.CasTotScope3EmissionsInTco2e__c}
+Here are the Greenhouse Gas Emissions incurred during this opportunity:
+Total Scope 1 Emissions (tCO2e) : *{!$Record.CasTotScope1EmissionsInTco2e__c}*
+Total Scope 2 Location-Based Emissions : *{!$Record.CasTotScope2LocBasedEmissions__c}*
+Total Scope 2 Market-based Emissions : *{!$Record.CasTotScope2MktBasedEmissions__c}*
+Total Scope 3 Downstream Emissions (tCO2e) : *{!$Record.CasTotalScp3DnstrmEmissions__c}*
+Total Scope 3 Upstream Emissions (tCO2e) : *{!$Record.CasTotalScp3UpstrmEmissions__c}*
+Total Scope 3 Emissions (tCO2e) : *{!$Record.CasTotScope3EmissionsInTco2e__c}*
 
-Please get in touch with the :net-zero-tree: :net-zero-emoji: Net Zero Team :net-zero-emoji: :net-zero-tree: to get a full Sustainability Report that incurred during this case.
-Do not hesitate, to share it with the customer and ask them if they want to engage or even contribute with Offsetting of these emissions on &lt;https://netzero.salesforce.com/s/|Net Zero Marketplace&gt;  and also by choosing the projects or missions of their choice.
+We will be sending you the final version of :net-zero-tree: :net-zero-emoji: Sustainability Report :net-zero-emoji: :net-zero-tree: linked to this case once the expenses have been fully submitted and validated.
+
+Do not hesitate to share the Sustainability Report with the customer and ask them if they want to engage or even contribute with Offsetting of these emissions or by choosing the Net Zero Carbon projects of their choice on &lt;https://netzero.salesforce.com/s/|Net Zero Marketplace&gt;.
 
 Regards,
-:sustainability: The Sustainability Team :sustainability:</text>
+The Sustainability Team</text>
     </textTemplates>
 </Flow>
