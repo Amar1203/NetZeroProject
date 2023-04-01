@@ -23,7 +23,7 @@
         <inputParameters>
             <name>slackConversationId</name>
             <value>
-                <stringValue>C0515N3C34L</stringValue>
+                <stringValue>$Label.desinzc_case_ac_1123</stringValue>
             </value>
         </inputParameters>
         <inputParameters>

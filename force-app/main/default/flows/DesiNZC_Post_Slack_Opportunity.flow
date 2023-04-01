@@ -23,7 +23,7 @@
         <inputParameters>
             <name>slackConversationId</name>
             <value>
-                <stringValue>C05109KMKL5</stringValue>
+                <stringValue>$Label.desinzc_deal_ac_new_bus</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -63,7 +63,7 @@
         <inputParameters>
             <name>slackConversationId</name>
             <value>
-                <stringValue>C05109KMKL5</stringValue>
+                <stringValue>$Label.desinzc_deal_ac_new_bus</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
