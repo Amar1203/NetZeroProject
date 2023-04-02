@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Asset_Carbon_Footprint__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Vehicle Asset Carbon Footprint Lookup</description>
+    <externalId>false</externalId>
+    <label>Vehicle Asset Carbon Footprint</label>
+    <referenceTo>VehicleAssetCrbnFtprnt</referenceTo>
+    <relationshipLabel>Opportunities</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>
