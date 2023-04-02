@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>McDuckSlack</fullName>
+        <categories>Slack</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>McDuckSlack</shortDescription>
+        <value>a060900000VwY0FAAV</value>
+    </labels>
+
+    <labels>
+        <fullName>desinzc_case_ac_1123</fullName>
+        <categories>slack</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>desinzc-case-ac-1123</shortDescription>
+        <value>a060900000VwYCqAAN</value>
+    </labels>
+
+    <labels>
+        <fullName>desinzc_deal_ac_new_bus</fullName>
+        <categories>slack</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>desinzc-deal-ac-new-bus</shortDescription>
+        <value>a060900000VwYCvAAN</value>
+    </labels>
+</CustomLabels>
